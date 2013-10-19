@@ -23,7 +23,8 @@ public class MainActivity extends Activity {
 	}
 	
 	public void button_click(View v)
-	{		
+	{
+		//magic happens
 		String action = "ACTION_MEASURE_UX";
 		
 		Intent intent = new Intent(action);
